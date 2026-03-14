@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaysia: A Vibrant Cultural Journey | Home</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Discover the vibrant food, historic heritage sites, and colorful traditional festivals of Malaysia.">
+    <meta name="keywords"
+        content="Malaysia Tourism, Cultural Tourism, Nasi Lemak, Batu Caves, Thaipusam, Batik, Tradition">
+
+    <!-- Elegant Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+    <div class="pattern-overlay"></div>
+
+    <!-- Global Navbar -->
+    <nav class="elegant-nav">
+        <div class="nav-brand">Malaysia.Culture</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="places.html">Cultural Places</a></li>
+            <li><a href="festivals.html">Festivals</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="nav-hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+
+        <!-- Hero Section -->
+        <section class="hero gs-reveal">
+            <div class="hero-content">
+                <span class="eyebrow">Discover the Heart of SE Asia</span>
+                <h1 class="elegant-title">Malaysia: <br /> A Tapestry of Culture</h1>
+                <p class="subtitle">Experience the symphony of flavors, the timeless heritage sites, and the vibrant
+                    devotion of our traditional festivals.</p>
+            </div>
+            <div class="scroll-indicator gs-reveal-delay">
+                <span>Explore Categories</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <!-- Category Callouts (Brief intros linking to full pages) -->
+        <section class="content-section">
+            <div class="grid-container">
+                <div class="text-content gs-reveal-left">
+                    <span class="eyebrow">Gastronomy</span>
+                    <h2>The Flavors of Harmony</h2>
+                    <p>Malaysian cuisine is a masterclass in blending Malay, Chinese, and Indian spices into something
+                        entirely unique. Dive into our rich culinary history.</p>
+                    <a href="food.html" class="btn-primary">Discover Food</a>
+                </div>
+                <div class="image-content gs-reveal-right">
+                    <div class="img-wrapper rounded-arch align-right">
+                        <div id="food-slideshow" class="placeholder-img"
+                            style="background-image: url('images/nasilemak.jpeg'); transition: background-image 0.5s ease-in-out;">
+                        </div>
+                        <div class="decorative-element"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section bg-alt">
+            <div class="grid-container reverse">
+                <div class="text-content gs-reveal-right">
+                    <span class="eyebrow">Heritage Sites</span>
+                    <h2>Footprints of the Past</h2>
+                    <p>From the colorful steps of Batu Caves to the historic streets of Malacca, explore the living
+                        history of Malaysia.</p>
+                    <a href="places.html" class="btn-primary">Explore Places</a>
+                </div>
+                <div class="image-content gs-reveal-left">
+                    <div class="img-wrapper rounded-rectangle align-left">
+                        <div id="places-slideshow" class="placeholder-img"
+                            style="background-image: url('images/batucaves.png'); transition: background-image 0.5s ease-in-out;">
+                        </div>
+                        <div class="decorative-element right"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="grid-container">
+                <div class="text-content gs-reveal-left">
+                    <span class="eyebrow">Vibrant Festivals</span>
+                    <h2>A Calendar of Color</h2>
+                    <p>Malaysia is a land that celebrates together. Experience the staggering devotion of Thaipusam, the
+                        joy of Hari Raya, and more.</p>
+                    <a href="festivals.html" class="btn-primary">Join Festivals</a>
+                </div>
+                <div class="image-content gs-reveal-right">
+                    <div class="img-wrapper rounded-arch align-right">
+                        <div id="festivals-slideshow" class="placeholder-img"
+                            style="background-image: url('images/thaipusam.jpeg'); transition: background-image 0.5s ease-in-out;">
+                        </div>
+                        <div class="decorative-element"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="elegant-footer gs-reveal">
+            <div class="footer-content">
+                <h3>Malaysia.Culture</h3>
+                <p>Designed for the Tourism Malaysia Marketing Plan 2022-2026 Analysis.</p>
+                <div class="divider"></div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/u-paravesh" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/thoda_junoon?igsh=MWtxbnRtYXN3Mmd2dg==" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:paravesh265@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
